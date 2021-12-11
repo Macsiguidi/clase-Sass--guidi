@@ -1,155 +1,67 @@
-.logo, .logo2{
-    width: 90px;
-    height: 70px;
-}
-.Inicio, .productos, .nosotros, .contacto {
-    font-weight: bold;
-}
-.carrito{
-    margin-left: 750px;
-    background-color: rgb(39, 134, 134);
-    padding: 5px;
-    border-radius: 2px 2px 2px 2px;
-}
-.fondo{
-    background-color: rgb(10, 71, 73);
-}
 
-.bolsacompras{
-    width: 20px;
-}
-.redes{
-    width: 20px;
-}
-.menu2, .redes2{
-    list-style: none;
-}
-p{
-    text-align: center;
-}
-.garras{
-    width: 260px;
-    padding: 40px;
-    margin-left: 50px;
-    
-  
-}
-li{
-    font-size: 15px;
-    transition: font-size 1s;
-        &:hover{
-        font-size: 17px;
-    }
 
+header{
+    background-color: rgb(34, 112, 93);
 }
-.imagen{
-    width: 1600px;
-    height: 737px;
+.logo{
+    width: 120px;
+    margin-left: 200px;
+    margin-bottom: 10px;
 }
-.texto1{
-    font-size: 40px;
-    font-weight: bold;
+.social-header{
     margin-top: 20px;
-    
+    margin-left: 130px;
+    .instagram{
+        color:rgb(180, 102, 163);
+        transition: color 0.5s;
+        .fa-inverse{
+            color: white;
+        }
+    }
+    .instagram:hover{
+        color:rgb(155, 75, 137) ;
+    }
+    .twitter{
+        color: rgb(98, 98, 233);
+        transition: color 0.5s;
+        .fa-inverse{
+            color: white;
+        }
+    }
+    .twitter:hover{
+        color:rgb(29, 29, 219) ;
+    }
+    .whatsapp{
+        color: rgb(43, 161, 73);
+        transition: color 0.5s;
+        .fa-inverse{
+            color: white;
+        }
+    }
+    .whatsapp:hover{
+        color:rgb(14, 124, 42) ;
+    }
+    .mail{
+        color: rgb(250, 74, 74);
+        transition: color 0.5s;
+        .fa-inverse{
+            color: white;
+        }
+    }
+    .mail:hover{
+        color:rgb(167, 9, 9) ;
+    }
 }
-.texto2{
-    font-size: 40px;
-    font-weight: bold;
-}
-
-
-.texto3, .texto4{
-    font-size: 20px;
-
-}
-
-.boxproductos{
-    background-color: rgb(230, 216, 32);
-    text-align: center;
-    font-size: 70px;
-    font-weight: bold;
-    padding: 100px;
-    color: white;
-    transition: background-image 1s;
-}
-.boxproductos:hover{
-    background-color: crimson;
-}
-.boxnosotros{
-    background-color: darkblue;
-    text-align: center;
-    font-size: 70px;
-    font-weight: bold;
-    padding: 100px;
-    color: white;
-    transition: background-image 2s;
-
-}
-.boxnosotros:hover{
-   background-color: darkorange;
-}
-.boxnosotros a{
-    text-decoration: none;
-    color: white;
-}
-.boxproductos a{
-    text-decoration: none;
-    color: white;
-}
-
-/*footer */
-.footer{
-    padding: 30px;
-    margin-top: 15px;
-    background-color: rgb(10, 71, 73);
-    padding-bottom: 4px;
-}
-.logofooter{
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    padding-right: 45px;
-
-}
-.logo2{
-    margin-top: 8px;
-    padding-bottom: 25px;
-    margin-bottom: 1px;
-    margin-right: 79px;
-    width: 150px;
-    height: 150px;
-    margin-left: 30px;
-    
-    
-}
-.listaredes{
-    display: flex; 
-    flex-flow: row wrap;
-    flex-direction: row;
-    align-content: flex-end;
-    margin-right: 85px;
-    padding-left: 20px;
-}
-.redes2{
-    margin-left: 10px;
-}
-.menufooter{
-    margin-top: 30px;
-    padding-left: 120px;
-
-}
-.menu2 a{
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-}
-.imgpago{
-   padding-left: 180px;
-    
-}
-.pago{
-    width: 40px;
-    border: 1px solid white;
-    margin: 10px;
+.menu-bar {
+    background-color:rgb(112, 184, 166);
+    margin-right: 20px;
+    a{
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    a:hover{
+        text-decoration: none;
+        color: white;
+    }
 }
