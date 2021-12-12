@@ -67,7 +67,7 @@ header{
     }
 }
 .menu-list{
-    padding: 12px 0;
+    padding: 5px 0;
     margin-bottom: 0;
     li:not(:last-child){
         margin-right: 40px;
@@ -89,5 +89,22 @@ header{
     padding: 10px 45px;
     text-align: left;
     width: 340px;
-
+    img{
+        display: block;
+        width: 150px;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    h3{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+.slider-home{
+    margin-bottom: 50px;
 }
