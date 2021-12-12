@@ -81,6 +81,12 @@ header{
     color: darkgray;
 }
 //--carrocel--//
+.carousel-item{
+    img{
+        width: 1000px;
+        height: 650px;
+    }
+}
 .carousel-caption{
     background-color: rgba(37, 36, 34, 0.75);
     height: 100%;
@@ -95,16 +101,14 @@ header{
         height: auto;
         max-width: 100%;
         margin-bottom: 15px;
+        margin-top: 15px;
     }
     p{
         font-size: 14px;
         line-height: 18px;
     }
-    h3{
-        font-size: 25px;
-        line-height: 30px;
-    }
 }
 .slider-home{
     margin-bottom: 50px;
 }
+//--section--//

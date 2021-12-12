@@ -64,6 +64,10 @@ header {
 .carrito:hover {
   color: darkgray; }
 
+.carousel-item img {
+  width: 1000px;
+  height: 650px; }
+
 .carousel-caption {
   background-color: rgba(37, 36, 34, 0.75);
   height: 100%;
@@ -77,13 +81,11 @@ header {
     width: 150px;
     height: auto;
     max-width: 100%;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    margin-top: 15px; }
   .carousel-caption p {
     font-size: 14px;
     line-height: 18px; }
-  .carousel-caption h3 {
-    font-size: 25px;
-    line-height: 30px; }
 
 .slider-home {
   margin-bottom: 50px; }
