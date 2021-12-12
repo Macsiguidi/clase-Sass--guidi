@@ -1,14 +1,17 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
 header {
   background-color: #22705d; }
 
 .logo {
   width: 120px;
-  margin-left: 200px;
+  margin-left: 0;
   margin-bottom: 10px; }
 
 .social-header {
   margin-top: 20px;
-  margin-left: 130px; }
+  margin-left: 305px; }
   .social-header .instagram {
     color: #b466a3;
     transition: color 0.5s; }
@@ -39,8 +42,7 @@ header {
     color: #a70909; }
 
 .menu-bar {
-  background-color: #70b8a6;
-  margin-right: 20px; }
+  background-color: #70b8a6; }
   .menu-bar a {
     color: black;
     font-size: 16px;
@@ -48,3 +50,25 @@ header {
   .menu-bar a:hover {
     text-decoration: none;
     color: white; }
+
+.menu-list {
+  padding: 12px 0;
+  margin-bottom: 0; }
+  .menu-list li:not(:last-child) {
+    margin-right: 40px; }
+
+.carrito {
+  color: black;
+  transition: color 0.5s; }
+
+.carrito:hover {
+  color: darkgray; }
+
+.carousel-caption {
+  background-color: rgba(37, 36, 34, 0.75);
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 10px 45px;
+  text-align: left;
+  width: 340px; }
