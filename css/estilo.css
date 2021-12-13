@@ -2,7 +2,10 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 header {
-  background-color: #22705d; }
+  background-image: url(/assents/img/elruso.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .logo {
   width: 120px;
@@ -10,8 +13,7 @@ header {
   margin-bottom: 10px; }
 
 .social-header {
-  margin-top: 20px;
-  margin-left: 305px; }
+  margin-top: 20px; }
   .social-header .instagram {
     color: #b466a3;
     transition: color 0.5s; }
@@ -89,3 +91,42 @@ header {
 
 .slider-home {
   margin-bottom: 50px; }
+
+/*Main*/
+.texto1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px; }
+
+.boxnosotros {
+  padding: 100px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  background-image: url(/assents/img/Elbocado.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 1s; }
+  .boxnosotros a {
+    color: white;
+    text-decoration: none; }
+
+.boxnosotros:hover {
+  background-image: url(/assents/img/puertaElbocado.jpg); }
+
+.boxproductos {
+  padding: 100px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  background-image: url(/assents/img/caja6plus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 1s; }
+  .boxproductos a {
+    color: white;
+    text-decoration: none; }
+
+.boxproductos:hover {
+  background-image: url(/assents/img/caja12plus.jpg); }

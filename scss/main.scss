@@ -3,7 +3,10 @@ body{
 }
 
 header{
-    background-color: rgb(34, 112, 93);
+    background-image:url(/assents/img/elruso.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .logo{
     width: 120px;
@@ -12,7 +15,6 @@ header{
 }
 .social-header{
     margin-top: 20px;
-    margin-left: 305px;
     .instagram{
         color:rgb(180, 102, 163);
         transition: color 0.5s;
@@ -111,4 +113,46 @@ header{
 .slider-home{
     margin-bottom: 50px;
 }
-//--section--//
+/*Main*/
+.texto1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.boxnosotros{
+    padding: 100px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    background-image:url(/assents/img/Elbocado.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 1s;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.boxnosotros:hover{
+    background-image:url(/assents/img/puertaElbocado.jpg);
+}
+.boxproductos{
+    padding: 100px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    background-image:url(/assents/img/caja6plus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 1s;
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.boxproductos:hover{
+    background-image:url(/assents/img/caja12plus.jpg);
+}
