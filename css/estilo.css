@@ -171,6 +171,7 @@ header {
   .social-header2 .mail:hover {
     color: #a70909; }
 
+/* ESTILO CSS PRODUCTO*/
 @media only screen and (min-width: 360px) and (max-width: 768px) {
   .logo {
     margin-left: 100px; }
