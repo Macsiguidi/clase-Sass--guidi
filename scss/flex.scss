@@ -1,0 +1,15 @@
+.menuheader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    li{
+        margin-right: 20px;
+        list-style: none;
+        text-decoration: none;
+    }
+}
+.redes{
+    @extend .menuheader;
+    justify-content: center;
+}

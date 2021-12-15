@@ -1,0 +1,62 @@
+@media only screen and (min-width: 1024px) {
+  .gridcontainerpadre {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto; }
+  .gridcontainerpadre {
+    display: grid;
+    grid-template-areas: "header header" "nav nav" "main main" "footer footer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto; }
+  header {
+    grid-area: header; }
+  nav {
+    grid-area: nav; }
+  main {
+    grid-area: main; }
+  footer {
+    grid-area: footer; }
+  .container1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    background-color: cadetblue; } }
+
+.menuheader, .redes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
+  .menuheader li, .redes li {
+    margin-right: 20px;
+    list-style: none;
+    text-decoration: none; }
+
+.redes {
+  justify-content: center; }
+
+.logoheader {
+  width: 200px;
+  background-color: #5f8ba0; }
+
+.menuheader, .redes {
+  background-color: grey; }
+  .menuheader li, .redes li {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none; }
+    .menuheader li a, .redes li a {
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+      text-decoration: none; }
+
+.logofooter {
+  width: 200px;
+  background-color: cadetblue; }
+
+h2 {
+  font-size: 30px;
+  color: #785fa9;
+  text-align: center; }

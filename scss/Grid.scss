@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1024px){
+
+    .gridcontainerpadre{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+
+    .gridcontainerpadre{
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "main main"
+        "footer footer";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+    header{
+        grid-area: header;
+    }
+    nav{
+        grid-area: nav;
+    }
+
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
+    
+    .container1{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        background-color: cadetblue;
+    }  
+}
+    

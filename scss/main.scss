@@ -1,14 +1,35 @@
 
-$ancho:800px;
-$letra: 20px;
-$largo:700px;
-$estilo:(
-    color:blue,
-    centro:center,
-    tFuente:35px,
-    20px:20px,
-)
+@import "grid";
+@import "flex";
+@import "colores";
 
 
-
+.logoheader{
+    width: 200px;
+    background-color:map-get($colores, fondo1);
+}
+.menuheader{
+    background-color: map-get($colores, fondo2);
+    li{
+        font-size: 20px;
+        font-weight: bold;
+        color: map-get($colores , colorletra1 );
+        text-decoration: none;
+        a{
+            font-size: 20px;
+            font-weight: bold;
+            color: map-get($colores, colorletra2 );
+            text-decoration: none;
+        }
+    }
+}
+.logofooter{
+    width: 200px;
+    background-color: cadetblue;
+}
+h2{
+    font-size: 30px;
+    color: map-get($colores, colorletra3);
+    text-align: center;
+}
 
