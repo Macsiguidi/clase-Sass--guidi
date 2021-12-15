@@ -3,16 +3,21 @@
 @import "flex";
 @import "colores";
 
+@mixin estiloletras($25px,$bold){
+    font-size: $25px;
+    font-weight:$bold;
+}
 
+.container1{
+    background-color: map-get($colores, fondo1 );
+}
 .logoheader{
     width: 200px;
-    background-color:map-get($colores, fondo1);
 }
 .menuheader{
     background-color: map-get($colores, fondo2);
     li{
-        font-size: 20px;
-        font-weight: bold;
+        @include estiloletras($25px,bold)
         color: map-get($colores , colorletra1 );
         text-decoration: none;
         a{
@@ -23,13 +28,24 @@
         }
     }
 }
+.container3{
+    background-color: map-get($colores,colorletra3 );
+}
 .logofooter{
     width: 200px;
-    background-color: cadetblue;
 }
 h2{
     font-size: 30px;
     color: map-get($colores, colorletra3);
     text-align: center;
 }
+h3{
+    text-align: center;
+    color: map-get($colores , fondo1 );
+}
+.imagengarras{
+    background-color: map-get($colores, colorletra3 );
+
+}
+
 
